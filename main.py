@@ -56,6 +56,7 @@ for ETF in ETFs_to_remove:
     largest_ETFs_Tickers_names.remove(ETF)
 
 app = Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 app.layout = html.Div(id='container', children=[
     html.Div(id='ETF_selection_container', children=[
