@@ -1,0 +1,4 @@
+dash==2.16.1
+pandas
+yfinance
+gunicorn
